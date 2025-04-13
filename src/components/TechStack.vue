@@ -42,11 +42,11 @@ section {
 }
 
 .icon:hover {
-cursor: pointer;
-color: var(--accent-color);
-transform: translateY(-8px) scale(1.02);
-text-shadow:
-   0 0 2rem var(--accent-color),
+  cursor: pointer;
+  color: var(--accent-color);
+  transform: translateY(-8px) scale(1.02);
+  text-shadow:
+    0 0 2rem var(--accent-color),
     0 0 15px var(--accent-color),
     0 0 25px var(--accent-color);
 }

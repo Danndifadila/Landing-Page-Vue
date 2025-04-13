@@ -3,7 +3,7 @@
     <img :src="image" :alt="title" class="project-image" />
     <div class="project-content">
       <h2 class="project-title">{{ title }}</h2>
-      <p class="project-description">{{ desc }} </p>
+      <p class="project-description">{{ desc }}</p>
       <a :href="github" target="_blank" class="github-link">View on GitHub</a>
     </div>
   </div>
@@ -61,7 +61,7 @@ defineProps({
 }
 
 .project-description {
-align-text: center;
+  align-text: center;
   font-size: 1rem;
   margin-bottom: 1rem;
   line-height: 1.4;
