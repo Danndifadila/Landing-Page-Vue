@@ -7,7 +7,7 @@ import { AkVueFill } from '@kalimahapps/vue-icons'
 
 <template>
   <section>
-    <h1>Tech Stack</h1> 
+    <h1>Tech Stack</h1>
     <div class="icon-container">
       <AnOutlinedJavaScript class="icon" />
       <ReTailwindCssFill class="icon" />
@@ -19,7 +19,7 @@ import { AkVueFill } from '@kalimahapps/vue-icons'
 
 <style scoped>
 section {
-margin-top: 2rem;
+  margin-top: 2rem;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -29,10 +29,10 @@ margin-top: 2rem;
 }
 
 .icon-container {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
 }
 
 .icon {
