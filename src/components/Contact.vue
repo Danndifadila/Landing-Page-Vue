@@ -7,8 +7,8 @@ import { AkLinkedinBoxFill } from '@kalimahapps/vue-icons'
   <section>
     <h1>Let's Connect!</h1>
     <div class="icons-container">
-      <AkGithubFill class="icon"/>
-      <AkLinkedinBoxFill class="icon"/>
+      <AkGithubFill class="icon" />
+      <AkLinkedinBoxFill class="icon" />
     </div>
   </section>
 </template>

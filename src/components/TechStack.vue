@@ -1,10 +1,3 @@
-<script setup>
-import { AnOutlinedJavaScript } from '@kalimahapps/vue-icons'
-import { ReTailwindCssFill } from '@kalimahapps/vue-icons'
-import { AkReactFill } from '@kalimahapps/vue-icons'
-import { AkVueFill } from '@kalimahapps/vue-icons'
-</script>
-
 <template>
   <section>
     <h1>Tech Stack</h1>
@@ -17,9 +10,17 @@ import { AkVueFill } from '@kalimahapps/vue-icons'
   </section>
 </template>
 
+<script setup>
+import { AnOutlinedJavaScript } from '@kalimahapps/vue-icons'
+import { ReTailwindCssFill } from '@kalimahapps/vue-icons'
+import { AkReactFill } from '@kalimahapps/vue-icons'
+import { AkVueFill } from '@kalimahapps/vue-icons'
+</script>
+
 <style scoped>
 section {
   margin-top: 2rem;
+  margin-bottom: 4rem;
   height: auto;
   display: flex;
   flex-direction: column;
