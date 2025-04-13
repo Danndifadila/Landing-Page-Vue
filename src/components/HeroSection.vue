@@ -7,7 +7,7 @@ import MyPhoto from '@/assets/foto_dieng.jpg'
     <img :src="MyPhoto" alt="My Photo" />
     <section class="HeroSecText">
       <h1>Hello <strong>I'm Danndifadila</strong></h1>
-      <h1> A<strong> Junior Developers</strong></h1>
+      <h1>A<strong> Junior Developers</strong></h1>
       <p>I'm a Curious Programmers</p>
     </section>
   </section>
@@ -18,7 +18,8 @@ import MyPhoto from '@/assets/foto_dieng.jpg'
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
+  min-height: 500px;
+  margin-bottom: 3rem;
 }
 
 h1 {

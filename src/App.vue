@@ -5,13 +5,9 @@ import TechStack from './components/TechStack.vue'
 </script>
 
 <template>
-  <div>
+<main>
     <HeroSection />
-  </div>
-  <div>
     <AboutMe />
-  </div>
-  <div>
-  <TechStack />
-  </div>
+    <TechStack />
+</main>
 </template>
