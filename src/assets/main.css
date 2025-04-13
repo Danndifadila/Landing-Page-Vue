@@ -43,5 +43,5 @@ h1 {
 }
 
 strong {
-  color: hsla(160, 100%, 37%, 1);
+  color: var(--accent-color);
 }
