@@ -21,33 +21,44 @@ import { AkVueFill } from '@kalimahapps/vue-icons'
 section {
   margin-top: 2rem;
   margin-bottom: 4rem;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 1rem;
   text-align: center;
-  gap: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .icon-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 3rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .icon {
-  font-size: 4rem;
+  font-size: 3rem;
   transition: all 0.3s ease;
 }
 
 .icon:hover {
   cursor: pointer;
   color: var(--accent-color);
-  transform: translateY(-8px) scale(1.02);
+  transform: translateY(-8px) scale(1.05);
   text-shadow:
     0 0 2rem var(--accent-color),
     0 0 15px var(--accent-color),
     0 0 25px var(--accent-color);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
 }
 </style>
