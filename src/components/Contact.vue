@@ -1,25 +1,34 @@
-<script setup>
-import { AkGithubFill } from '@kalimahapps/vue-icons'
-import { AkLinkedinBoxFill } from '@kalimahapps/vue-icons'
-</script>
-
 <template>
   <section>
     <h1>Let's Connect!</h1>
     <div class="icons-container">
-      <a href="https://github.com/Danndifadila" target="_blank" class="icon-wrapper">
-        <AkGithubFill class="icon" />
-      </a>
       <a
-        href="https://www.linkedin.com/in/danndifadila-arrasikhuuna-herwanto-44b342347/"
+        v-for="icon in icons"
+        :key="icon.name"
+        :href="icon.link"
         target="_blank"
-        class="icon-wrapper"
+        rel="noopener noreferrer"
+        class="icon-item"
       >
-        <AkLinkedinBoxFill class="icon" />
+        <img :src="icon.src" :alt="icon.name" width="70" height="70" class="icon" />
       </a>
     </div>
   </section>
 </template>
+
+<script setup>
+import { AkGithubFill } from '@kalimahapps/vue-icons'
+import { AkLinkedinBoxFill } from '@kalimahapps/vue-icons'
+
+const icons = [
+  { name: 'GitHub', src: 'github-mark-white.svg', link: 'https://github.com/Danndifadila' },
+  {
+    name: 'LinkedIn',
+    src: 'linkedin-tile.svg',
+    link: 'https://www.linkedin.com/in/danndifadila-arrasikhuuna-herwanto-44b342347/',
+  },
+]
+</script>
 
 <style scoped>
 section {

@@ -59,4 +59,3 @@ import MyPhoto from '@/assets/foto_dieng.jpg'
   }
 }
 </style>
-

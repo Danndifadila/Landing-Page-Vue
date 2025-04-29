@@ -1,11 +1,17 @@
 <template>
   <section>
     <h1>Tech Stack</h1>
-    <div class="icon-container">
-      <AnOutlinedJavaScript class="icon" />
-      <ReTailwindCssFill class="icon" />
-      <AkReactFill class="icon" />
-      <AkVueFill class="icon" />
+    <div class="icon-list">
+      <a
+        v-for="icon in icons"
+        :key="icon.name"
+        :href="icon.link"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="icon-item"
+      >
+        <img :src="icon.src" :alt="icon.name" width="70" height="70" class="icon" />
+      </a>
     </div>
   </section>
 </template>
@@ -15,6 +21,13 @@ import { AnOutlinedJavaScript } from '@kalimahapps/vue-icons'
 import { ReTailwindCssFill } from '@kalimahapps/vue-icons'
 import { AkReactFill } from '@kalimahapps/vue-icons'
 import { AkVueFill } from '@kalimahapps/vue-icons'
+
+const icons = [
+  { name: 'JavaScript', src: 'javascript-icon.svg', link: '#' },
+  { name: 'Tailwind', src: 'tailwindcss-icon.svg', link: '#' },
+  { name: 'React', src: 'reactjs-icon.svg', link: '#' },
+  { name: 'Vue', src: 'vuejs-icon.svg', link: '#' },
+]
 </script>
 
 <style scoped>
@@ -30,7 +43,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.icon-container {
+.icon-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
