@@ -17,9 +17,6 @@
 </template>
 
 <script setup>
-import { AkGithubFill } from '@kalimahapps/vue-icons'
-import { AkLinkedinBoxFill } from '@kalimahapps/vue-icons'
-
 const icons = [
   { name: 'GitHub', src: 'github-mark-white.svg', link: 'https://github.com/Danndifadila' },
   {

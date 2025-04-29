@@ -17,11 +17,6 @@
 </template>
 
 <script setup>
-import { AnOutlinedJavaScript } from '@kalimahapps/vue-icons'
-import { ReTailwindCssFill } from '@kalimahapps/vue-icons'
-import { AkReactFill } from '@kalimahapps/vue-icons'
-import { AkVueFill } from '@kalimahapps/vue-icons'
-
 const icons = [
   { name: 'JavaScript', src: 'javascript-icon.svg', link: '#' },
   { name: 'Tailwind', src: 'tailwindcss-icon.svg', link: '#' },
