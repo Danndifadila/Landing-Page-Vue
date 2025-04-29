@@ -6,7 +6,6 @@
         v-for="icon in icons"
         :key="icon.name"
         :href="icon.link"
-        target="_blank"
         rel="noopener noreferrer"
         class="icon-item"
       >
